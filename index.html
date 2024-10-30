@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#JavaScript_and_Java"
+            >JavaScript and Java</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          JavaScript is a cross-platform, object-oriented scripting language. It
+          is a small and lightweight language. Inside a host environment (for
+          example, a web browser), JavaScript can be connected to the objects of
+          its environment to provide programmatic control over them.
+        </p>
+        <p>JavaScript is commonly used to create dynamic web pages.</p>
+        <p>
+          The language is also used in environments like Node.js to develop
+          server-side applications.
+        </p>
+        <p>
+          It is a popular language because of its simplicity and versatility.
+        </p>
+        <code>let message = "Hello, JavaScript";</code>
+      </section>
+
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <p>This guide assumes you have the following basic background:</p>
+        <ul>
+          <li>
+            A general understanding of the Internet and the World Wide Web
+            (WWW).
+          </li>
+          <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+          <li>
+            Some programming experience. If you are new to programming, try one
+            of the tutorials linked on the main page about JavaScript.
+          </li>
+        </ul>
+        <p>
+          Understanding HTML and CSS is also helpful when learning JavaScript.
+        </p>
+        <code>const pi = 3.14;</code>
+      </section>
+
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>JavaScript and Java</header>
+        <p>
+          JavaScript and Java are similar in some ways but fundamentally
+          different in others.
+        </p>
+        <p>
+          Both Java and JavaScript use similar syntax, but they are used for
+          entirely different purposes.
+        </p>
+        <p>Java is a compiled, object-oriented programming language.</p>
+        <p>JavaScript, however, is interpreted and runs in web browsers.</p>
+        <code>console.log("JavaScript vs Java");</code>
+      </section>
+
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <p>
+          To get started with writing JavaScript, open the Scratchpad and write
+          your first "Hello world" JavaScript code:
+        </p>
+        <p>This will help you understand the basics of the language.</p>
+        <code
+          >function greetMe(yourName) { alert("Hello " + yourName); }
+          greetMe("World");</code
+        >
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+          You use variables as symbolic names for values in your application.
+        </p>
+        <p>
+          A variable can be defined using the `var`, `let`, or `const` keywords.
+        </p>
+        <code>let x = 10;</code>
+      </section>
+
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <p>
+          Constants are block-scoped, much like variables declared using the
+          `let` keyword.
+        </p>
+        <p>Once assigned a value, a constant cannot be reassigned.</p>
+        <code>const MY_CONSTANT = 100;</code>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <p>All the documentation in this page is taken from MDN.</p>
+        <ul>
+          <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+          <li><a href="https://javascript.info/">JavaScript Info</a></li>
+          <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
