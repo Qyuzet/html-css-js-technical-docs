@@ -1,6 +1,8 @@
 # JavaScript Technical Documentation
 
-This project is a static documentation page for JavaScript, designed as a technical reference for developers. It includes an overview of JavaScript, its key concepts, and core functionalities, structured with a sidebar for easy navigation. The project showcases HTML, CSS, and JavaScript for creating a clean and accessible documentation layout.
+This project is a static documentation page for JavaScript, designed as a technical reference for developers. It includes an overview of JavaScript, its key concepts, and core functionalities, structured with a sidebar for easy navigation. The project showcases HTML, and CSS  for creating a clean and accessible documentation layout.
+
+You can view the documentation live [here](https://qyuzet.github.io/html-css-js-technical-docs)
 
 ## Table of Contents
 
